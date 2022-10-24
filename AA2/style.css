@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.section{
+	float: left;
+	width: 33.33%;
+}
+.article{
+	position: relative;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #EEE;
+}
+h2{
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	right: 0px;
+	top: 0px;
+}
+p{
+	margin: 35px 5px 5px 5px;
+}
+#chicken{
+	background-color: yellow;
+}
+#beef{
+	background-color: blue;
+}
+#pork{
+	background-color: pink;
+}
